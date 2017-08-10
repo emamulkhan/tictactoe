@@ -16,7 +16,7 @@ composer install
 
 After installation go to index.php eg - http://localhost/tictactoe/index.php
 
-## Development setup
+## Testing
 
 To run all tests of the app, execute these commands in the app directory.
 
