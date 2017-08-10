@@ -1,6 +1,6 @@
 {
-    "name": "dockler/TicTacToe",
-    "description": "This package is created for Dockler Holding Code Test",
+    "name": "docler/TicTacToe",
+    "description": "This package is created for Docler Holding Code Test",
     "authors": [
         {
             "name": "Emamul Khan",
@@ -9,11 +9,15 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "phpunit/phpunit": "^5.2"
     },
     "autoload": {
         "psr-4": {
-            "Dockler\\TicTacToe\\": "src"
+            "DoclerTicTacToe\\": "src/"
+        },
+        "psr-0": {
+            "DoclerTicTacToe\\": "tests/"
         }
     }
 }
